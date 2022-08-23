@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+  <head>
+    <meta charset="utf-8">
+    <title>星野サーバー｜SUPPORT</title>
+    <meta name="description" content="星野サーバーサポートページ">
+    <script src="./assets/js/main.js"></script>
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <meta property="og:image" content="https://hoshi-serv.net/image/sam.PNG" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@starprivate55" />
+    <meta name="twitter:title" content="星野サーバー｜SUPPORT" />
+    <meta name="twitter:description" content="星野サーバーサポートページ" />
+    <meta name="twitter:image" content="https://grp.hoshi-serv.net/image/sam.PNG" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="assets/plug/jquery.bxslider.js"></script>
+    <link href="assets/plug/jquery.bxslider.css" rel="stylesheet" />
+    <script type="text/javascript">
+    jQuery(document).ready(function($){
+    $('.bxslider').bxSlider({
+    auto: true,
+    });
+    });
+    </script>
+
+  </head>
+
+  <body>
+<!--ヘッダー-->
+    <header class="header">
+
+<!--▽▽ヘッダーロゴ▽▽-->
+      <div class="logo">
+          <a href="#" class="hun2" style="padding: 0px 15px;">HoshiServ Net
+          </a>
+      </div>
+<!--△△ヘッダーロゴ△△-->
+
+<!--▽▽ハンバーガーメニュー▽▽-->
+      <div id="hamburger">
+          <div class="icon">
+              <span></span>
+              <span></span>
+              <span></span>
+          </div>
+      </div>
+<!--△△ハンバーガーメニュー△△-->
+
+<!--▽▽ハンバーガーメニューのリスト▽▽-->
+      <nav class="sm">
+        <ul class="ul1">
+          <li><a href="https://grp.hoshi-serv.net/" class="hun">トップ</a></li>
+          <li><a href="https://grp.hoshi-serv.net/about/" class="hun">団体概要</a></li>
+          <li><a href="https://grp.hoshi-serv.net/service/" class="hun">サービス</a></li>
+          <li><a href="https://grp.hoshi-serv.net/support/" class="hun-sub">サポート</a></li>
+       </ul>
+     </nav>
+<!--△△ハンバーガーメニューのリスト△△-->
+
+<!--▽▽ヘッダーリスト▽▽-->
+      <nav class="pc">  <!--pcクラスを追記-->
+        <ul class=" ul">
+          <li><a href="https://grp.hoshi-serv.net/" class="hun2" style="padding: 0px 15px;">トップ</a></li>
+          <li><a href="https://grp.hoshi-serv.net/about/" class="hun2" style="padding: 0px 15px;">団体概要</a></li>
+          <li><a href="https://grp.hoshi-serv.net/service" class="hun2" style="padding: 0px 15px;">サービス</a></li>
+          <li><a href="https://grp.hoshi-serv.net/support/" class="hun2" style="padding: 0px 15px;">サポート</a></li>
+        </ul>
+      </nav>
+<!--△△ヘッダーリスト△△-->
+
+    </header>
+
+<!--▽▽jQuery▽▽-->
+    <script src="jquery-3.6.0.min.js"></script>
+      <script>
+        $('#hamburger').on('click', function(){
+        $('.icon').toggleClass('close');
+        $('.sm').slideToggle();
+        });
+      </script>
+<!--△△jQuery△△-->
+      <main>
+      <div class="honbun">
+      <span class="link1">
+        <h2 class="mds1">サポートページ</h2>
+        <br><div class="kakomi-box14"><span class="title-box14">質問の前に</span>よくあるご質問と回答が下記よりご確認いただけます。お問い合わせの前にご覧ください。</div><br>
+        <h4>本ホームページにはお問い合わせフォームがございません。<br>下記の連絡先にご連絡ください。</h4>
+        <h3>連絡先</h3>
+        <p>メールアドレス：support@hoshi-serv.net<br>Twitter：@starprivate55（代表）</p>
+      </span>
+    </div>
+</main>
+    <footer id="footer" class="footer">
+
+      <ul>
+      <li><a href="https://hoshi-serv.net/">TOPページ</a></li>
+      <li><a href="https://hoshi-serv.net/grp/support/">サポート</a></li>
+      <li><a href="https://hoshi-serv.net/grp/service/">サービス</a></li>
+      <li><a href="https://tgrgroup.jp/">TGR Group</a></li>
+      </ul>
+    
+    <p>©︎2022 HoshinoServer Network.</p>
+    
+    </footer>
+  </body>
+</html>
