@@ -265,14 +265,18 @@ li {
   color: #00F;
 }
 
-.itiran {
+.letter {
+  display: inline;
+}
+
+.letter-h {
+  margin:0
+}
+
+.letter-i {
   position: absolute;
   right: 0;
   top: 0;
-}
-
-.itiran-m {
-  display: inline
 }
 
 @media screen and (max-width: 767px){
