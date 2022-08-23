@@ -293,6 +293,13 @@ a{
     padding: 10px;
     margin: auto;
   }
-
+  
+  h4{
+    font-size: 16px;
+  }
+  
+  p {
+    font-size: 15px;
+  }
 
 }
