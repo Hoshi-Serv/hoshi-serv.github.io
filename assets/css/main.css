@@ -265,17 +265,8 @@ li {
   color: #00F;
 }
 
-.letter {
+#hoge{
   display: inline;
-}
-
-.letter-h {
-  display: inline;
-  margin:0
-}
-
-.letter-i {
-  float:left;
 }
 
 @media screen and (max-width: 767px){
