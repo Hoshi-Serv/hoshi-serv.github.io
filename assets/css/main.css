@@ -265,8 +265,12 @@ li {
   color: #00F;
 }
 
-#hoge{
+#hoge {
   display: inline;
+}
+
+.itiran {
+    float: right;
 }
 
 @media screen and (max-width: 767px){
