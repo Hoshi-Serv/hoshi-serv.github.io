@@ -69,7 +69,8 @@ li {
   display: block;
   line-height: 60px;
   margin: auto;
-  margin 0 15px;
+  margin 0px 15px;
+  padding: 0px 15px;
 }
 
 .sm {
