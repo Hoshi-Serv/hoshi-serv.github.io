@@ -298,8 +298,12 @@ li {
   margin: 0;
   width: 100%;
   font-size: 15px;
-  text-align: left;
 }
+
+.title｛
+  text-align: left;
+｝
+
 .news-list .item a:hover .title{
   color: #00F;
 }
