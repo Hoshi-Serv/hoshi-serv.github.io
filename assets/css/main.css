@@ -270,6 +270,7 @@ li {
 }
 
 .letter-h {
+  display: inline;
   margin:0
 }
 
