@@ -7,7 +7,7 @@ body {
   margin-top: 60px;
   font-family: "Hiragino Sans W3", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
   background-color: #ffffff;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .header {
@@ -237,7 +237,7 @@ li {
 .news-list .item .date{
   margin: 0;
   min-width: 140px;
-  font-size: 16px;
+  font-size: 15px;
   color: #999;
   padding: 0 20px 0 0;
 }
@@ -252,7 +252,7 @@ li {
   text-align: center;
   display: inline-block;
   padding: 5px 20px;
-  font-size: 12px;
+  font-size: 11px;
   line-height: 1;
 }
 .news-list .item .title{
