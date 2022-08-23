@@ -265,6 +265,13 @@ li {
   color: #00F;
 }
 
+.itiran {
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
 @media screen and (max-width: 767px){
 .news-list .item a{
   flex-wrap: wrap;
