@@ -7,7 +7,7 @@ body {
   margin-top: 60px;
   font-family: "Hiragino Sans W3", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
   background-color: #ffffff;
-  font-size: 18px;
+  font-size: 15px;
 }
 
 .header {
@@ -22,7 +22,7 @@ body {
 }
 
 .logo {
-  font-size: 25px;
+  font-size: 23px;
 }
 
 nav {
