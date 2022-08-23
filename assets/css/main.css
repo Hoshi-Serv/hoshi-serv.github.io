@@ -294,7 +294,11 @@ a{
     margin: auto;
   }
   
-  h4{
+  h3 {
+    font-size: 16.5px; 
+  }
+  
+  h4 {
     font-size: 16px;
   }
   
