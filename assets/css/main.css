@@ -163,19 +163,19 @@ li {
   padding: 5px;
 }
 
-.honbun a:link {
+.link1 a:link {
   color:#0000cd;
 }
 
-.honbun a:visited {
+.link1 a:visited {
   color:#0000cd;
 }
 
-.honbun a:hover {
+.link1 a:hover {
   color:#0000cd;
 }
 
-.honbun a:active {
+.link1 a:active {
   color:#0000cd;
 }
 
@@ -195,19 +195,19 @@ li {
   color:#ffffff;
 }
 
-.news10 a:link {
+.link2 a:link {
   color:#000000;
 }
 
-.news10 a:visited {
+.link2 a:visited {
   color:#000000;
 }
 
-.news10 a:hover {
+.link2 a:hover {
   color:#000000;
 }
 
-.news10 a:active {
+.linnk2 a:active {
   color:#000000;
 }
 
