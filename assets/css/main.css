@@ -462,9 +462,8 @@ a{
 .button01 a {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  padding: 8px 18px;
-  width: 200px;
+  padding: 8px 16px;
+  width: 220px;
   color: #333;
   font-size: 14px;
   font-weight: 600;
