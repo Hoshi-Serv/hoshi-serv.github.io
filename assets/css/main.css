@@ -270,7 +270,7 @@ li {
 }
 
 #itiran {
-    float: right;
+    margin: 0 0 0 auto;
 }
 
 @media screen and (max-width: 767px){
