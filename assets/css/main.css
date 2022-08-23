@@ -153,6 +153,7 @@ li {
 
 
 .honbun {
+  font-size: 15px;
   padding: 5px;
   padding-left: 10%;
   padding-right: 10%;
@@ -288,6 +289,7 @@ a{
 @media (max-width: 900px) {
 
   .honbun {
+    font-size: 15px;
     padding: 10px;
     margin: auto;
   }
