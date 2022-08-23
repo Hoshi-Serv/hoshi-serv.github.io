@@ -464,11 +464,11 @@ a{
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
-  padding: 1em 2em;
+  padding: 8px 18px;
   width: 300px;
   color: #333;
-  font-size: 18px;
-  font-weight: 700;
+  font-size: 14px;
+  font-weight: 600;
   background-color: #cccccc;
   transition: 0.3s;
 }
