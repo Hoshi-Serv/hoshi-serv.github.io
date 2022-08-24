@@ -332,28 +332,6 @@ body{
     margin: 0 0 0 auto;
 }
 
-@media screen and (max-width: 767px){
-.news-list .item a{
-  flex-wrap: wrap;
-}
-.news-list .item .date{
-  min-width: 100px;
-}
-.news-list .item .title{
-  margin-top: 10px;
-}
-}
-
-/* 装飾 */
- 
-*{
-  box-sizing: border-box;
-}
-a{
-  text-decoration: none;
-}
-
-
 @media (max-width: 900px) {
 
   .honbun {
