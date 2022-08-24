@@ -274,14 +274,14 @@ li {
 }
 .news-list .item .date{
   margin: 0;
-  min-width: 100px;
+  min-width: 110px;
   font-size: 15px;
   color: #999;
   padding: 0 20px 0 0;
 }
 .news-list .item .category{
   margin: 0;
-  min-width: 100px;
+  min-width: 110px;
   padding: 0 20px 0 0;
   font-size: 15px
 }
