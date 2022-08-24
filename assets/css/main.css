@@ -67,6 +67,7 @@ li {
   display: block;
   line-height: 60px;
   margin: auto;
+  margin: 0 auto;
   border-top: solid 0.5px rgb(255, 255, 255);
   border-bottom: solid 0.5px rgb(255, 255, 255);
 }
