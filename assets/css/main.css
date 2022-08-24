@@ -318,12 +318,13 @@ li {
 *{
   box-sizing: border-box;
 }
-a{
+.newsilist a{
   text-decoration: none;
 }
-body{
+news-list body{
   margin: 20px;
 }
+
 #hoge {
   display: inline-block;
 }
