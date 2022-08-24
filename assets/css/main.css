@@ -274,40 +274,56 @@ li {
 }
 .news-list .item .date{
   margin: 0;
-  min-width: 110px;
-  font-size: 15px;
+  min-width: 140px;
+  font-size: 16px;
   color: #999;
   padding: 0 20px 0 0;
 }
 .news-list .item .category{
   margin: 0;
-  min-width: 110px;
+  min-width: 140px;
   padding: 0 20px 0 0;
-  font-size: 15px
 }
 .news-list .item .category span{
   background: #999;
   color: #FFF;
-  display: inline-block;
   text-align: center;
+  display: inline-block;
   padding: 5px 20px;
-  font-size: 11px;
+  font-size: 12px;
   line-height: 1;
 }
 .news-list .item .title{
   margin: 0;
   width: 100%;
-  font-size: 15px;
 }
-
-.title p{
-  text-align: left;
-}
-
 .news-list .item a:hover .title{
   color: #00F;
 }
 
+@media screen and (max-width: 767px){
+.news-list .item a{
+  flex-wrap: wrap;
+}
+.news-list .item .date{
+  min-width: 100px;
+}
+.news-list .item .title{
+  margin-top: 10px;
+}
+}
+
+/* 装飾 */
+ 
+*{
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+}
+body{
+  margin: 20px;
+}
 #hoge {
   display: inline-block;
 }
