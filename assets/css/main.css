@@ -19,7 +19,7 @@ main {
 .header {
   height: 60px;
   width: 100%;
-  padding: 0px 15px;
+  padding-right: 15px;
   background-color: rgb(49, 36, 107);
   position: fixed;
   top: 0;
