@@ -20,6 +20,7 @@ main {
   height: 60px;
   width: 100%;
   padding-right: 15px;
+  padding-left: 5px;
   background-color: rgb(49, 36, 107);
   position: fixed;
   top: 0;
