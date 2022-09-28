@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+  <head>
+    <meta charset="utf-8">
+    <title>星野サーバー｜ABOUT</title>
+    <meta name="description" content="星野サーバーサポートページ">
+    <script src="./assets/js/main.js"></script>
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <meta property="og:image" content="https://hoshi-serv.net/image/sam.PNG" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@starprivate55" />
+    <meta name="twitter:title" content="星野サーバー｜ABOUT" />
+    <meta name="twitter:description" content="星野サーバーサポートページ" />
+    <meta name="twitter:image" content="https://grp.hoshi-serv.net/image/sam.PNG" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="assets/plug/jquery.bxslider.js"></script>
+    <link href="assets/plug/jquery.bxslider.css" rel="stylesheet" />
+    <script type="text/javascript">
+    jQuery(document).ready(function($){
+    $('.bxslider').bxSlider({
+    auto: true,
+    });
+    });
+    </script>
+
+  </head>
+
+  <body>
+<!--ヘッダー-->
+    <header class="header">
+
+<!--▽▽ヘッダーロゴ▽▽-->
+      <div class="logo">
+          <a href="#" class="hun2" style="padding: 0px 15px;">HoshiServ Net
+          </a>
+      </div>
+<!--△△ヘッダーロゴ△△-->
+
+<!--▽▽ハンバーガーメニュー▽▽-->
+      <div id="hamburger">
+          <div class="icon">
+              <span></span>
+              <span></span>
+              <span></span>
+          </div>
+      </div>
+<!--△△ハンバーガーメニュー△△-->
+
+<!--▽▽ハンバーガーメニューのリスト▽▽-->
+      <nav class="sm">
+        <ul class="ul1">
+          <li><a href="https://grp.hoshi-serv.net/" class="hun" class="hun" style="text-align:center">トップ</a></li>
+          <li><a href="https://grp.hoshi-serv.net/about" class="hun" class="hun" style="text-align:center">団体概要</a></li>
+          <li><a href="https://grp.hoshi-serv.net/service" class="hun" class="hun" style="text-align:center">サービス</a></li>
+          <li><a href="https://grp.hoshi-serv.net/support" class="hun-sub" class="hun" style="text-align:center">サポート</a></li>
+       </ul>
+     </nav>
+<!--△△ハンバーガーメニューのリスト△△-->
+
+<!--▽▽ヘッダーリスト▽▽-->
+      <nav class="pc">  <!--pcクラスを追記-->
+        <ul class=" ul">
+          <li><a href="https://grp.hoshi-serv.net/" class="hun2" style="padding: 0px 15px;">トップ</a></li>
+          <li><a href="https://grp.hoshi-serv.net/about" class="hun2" style="padding: 0px 15px;">団体概要</a></li>
+          <li><a href="https://grp.hoshi-serv.net/service" class="hun2" style="padding: 0px 15px;">サービス</a></li>
+          <li><a href="https://grp.hoshi-serv.net/support" class="hun2" style="padding: 0px 15px;">サポート</a></li>
+        </ul>
+      </nav>
+<!--△△ヘッダーリスト△△-->
+
+    </header>
+
+<!--▽▽jQuery▽▽-->
+    <script src="jquery-3.6.0.min.js"></script>
+      <script>
+        $('#hamburger').on('click', function(){
+        $('.icon').toggleClass('close');
+        $('.sm').slideToggle();
+        });
+      </script>
+<!--△△jQuery△△-->
+      <main>
+      <div class="honbun">
+      <span class="link1">
+        <h2 class="mds1">会社概要</h2>
+          <table class="kaisha">
+            <tr>
+              <th>グループ名</th>
+              <td>星野サーバーネットワーク</td>
+            </tr>
+            <tr>
+              <th>設立</th>
+              <td>2021年10月1日</td>
+            </tr>
+            <tr>
+              <th>代表者</th>
+              <td>湯浅 大雅(スター)</td>
+            </tr>
+            <tr>
+              <th>メンバー数</th>
+              <td>2名(代表含む)</td>
+            </tr>
+            <tr>
+              <th>親グループ</th>
+              <td>TGR Group</td>
+            </tr>
+            <tr>
+              <th>事業内容</th>
+              <td>インターネットサービス提供</td>
+            </tr>
+          </table>
+      </span>
+    </div>
+</main>
+    <footer id="footer" class="footer">
+
+      <ul>
+      <li><a href="https://grp.hoshi-serv.net/">TOPページ</a></li>
+      <li><a href="https://grp.hoshi-serv.net/grp/support">サポート</a></li>
+      <li><a href="https://grp.hoshi-serv.net/grp/service">サービス</a></li>
+      <li><a href="https://tgrgroup.jp/">TGR Group</a></li>
+      </ul>
+    
+    <p>©︎2022 HoshinoServer Network.</p>
+    
+    </footer>
+  </body>
+</html>
